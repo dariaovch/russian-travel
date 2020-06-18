@@ -1,0 +1,10 @@
+@import url(./__items/places__items.css);
+@import url(./__item/places__item.css);
+@import url(./__title/places__title.css);
+@import url(./__link/places__link.css);
+@import url(./__image/places__image.css);
+@import url(./__text/places__text.css);
+
+.places {
+    
+}
