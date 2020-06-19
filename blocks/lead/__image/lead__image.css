@@ -1,4 +1,4 @@
 .lead__image {
-    max-height: 615px;
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
 }
