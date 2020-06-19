@@ -1,0 +1,21 @@
+.section_narrow {
+    width: calc(100vw - 200px);
+}
+
+@media screen and (max-width: 1024px) {
+    .section_narrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section_narrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section_narrow {
+        display: none;
+    }
+}

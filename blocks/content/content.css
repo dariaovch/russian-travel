@@ -1,6 +1,6 @@
 .content {
     display: grid;
-    grid-template-columns: calc(100% - 48px*2);
-    grid-template-rows: repeat(5, auto);
-    grid-gap: 92px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, max-content);
+    grid-row-gap: 92px;
 }

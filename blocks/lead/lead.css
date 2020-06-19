@@ -4,5 +4,11 @@
 @import url(./__image-caption/lead__image-caption.css);
 
 .lead {
-    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.lead__img-container {
+    margin: 0 auto;
 }

@@ -1,0 +1,6 @@
+.places__link-container {
+    align-self: end;
+    justify-self: start;
+    display: flex;
+    flex-direction: column;
+}

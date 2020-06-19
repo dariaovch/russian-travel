@@ -1,0 +1,10 @@
+.intro__fact {
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.intro__fact-accent {
+    font-weight: bold;
+}

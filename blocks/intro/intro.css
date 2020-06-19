@@ -4,5 +4,7 @@
 @import url(./__fact/intro__fact.css);
 
 .intro {
-    
+  padding-right: 30%;  
+  margin: 0 auto;
+  max-width: 690px;
 }
