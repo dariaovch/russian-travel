@@ -2,6 +2,7 @@
 @import url(./__main-text/intro__main-text.css);
 @import url(./__facts/intro__facts.css);
 @import url(./__fact/intro__fact.css);
+@import url(./__fact-accent/intro__fact-accent.css);
 
 .intro {
   padding-right: 294px;  
@@ -15,6 +16,12 @@
   }
 }
 
+@media screen and (max-width:948px) {
+  .intro {
+    padding-right: 0;
+  }
+}
+
 @media screen and (max-width:768px) {
   .intro {
     padding-right: 0;
@@ -22,9 +29,27 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:640px) {
   .intro {
-    padding-right: 0;
+    max-width: 576px;
+  }
+}
+
+
+@media screen and (max-width:425px) {
+  .intro {
+    max-width: 382px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .intro {
+    max-width: 338px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .intro {
     max-width: 288px;
   }
 }

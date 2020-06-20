@@ -12,13 +12,9 @@
     opacity: 0.5;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .footer__menu-link {
         font-size: 24px;
         line-height: 1;
-    }
-
-    .footer__menu-link:hover {
-        display: none;
     }
 }

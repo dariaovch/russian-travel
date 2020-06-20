@@ -47,6 +47,25 @@
         min-height: 480px;
     }
 }
+
+@media screen and (max-width: 640) {
+    .cover__banner {
+        min-height: 396px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__banner {
+        min-height: 264px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__banner {
+        min-height: 235px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__banner {
         min-height: 200px;

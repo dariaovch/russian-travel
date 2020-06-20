@@ -14,18 +14,17 @@
 }
 
 
-@media screen and (max-width: 748px) {
+@media screen and (max-width:640px) {
     .intro__title {
-        margin-bottom: 40px;
+        font-size: 40px;
+        line-height: 1.09;
     }
-}
+  }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:425px) {
     .intro__title {
         font-size: 32px;
         line-height: 1.09;
-        font-weight: 900;
-        margin-top: 0;
-        margin-bottom: 40px;
     }
-}
+  }
+  
