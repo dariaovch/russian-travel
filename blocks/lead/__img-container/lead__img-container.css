@@ -1,0 +1,22 @@
+.lead__img-container {
+    margin: 0 auto;
+    max-width: 948px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__img-container {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__img-container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__img-container {
+        max-width: 320px;
+    }
+}

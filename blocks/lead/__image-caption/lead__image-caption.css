@@ -3,3 +3,15 @@
     line-height: 1.4;
     font-weight: normal;
 }
+
+@media screen and (max-width:768) {
+    .lead__image-caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width:768) {
+    .lead__image-caption {
+        margin-left: 16px;
+    }
+}
