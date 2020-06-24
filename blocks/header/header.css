@@ -4,8 +4,7 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-    width: 90%;
-    margin: 0 auto;
+    margin: 0 48px;
     padding-top: 28px;
     padding-bottom: 56px;
     display: flex;
@@ -21,12 +20,13 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        padding-bottom: 48px;
+        margin: 0 24px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .header {
+        margin: 0 16px;
         padding-top: 16px;
     }
 }

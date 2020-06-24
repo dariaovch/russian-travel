@@ -1,21 +1,23 @@
 .section_narrow {
-    width: calc(100% - 200px);
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 @media screen and (max-width: 1024px) {
     .section_narrow {
-        width: 100%;
+       padding-left: 0;
+       padding-right: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .section_narrow {
-        width: 100%;
+    
     }
 }
 
 @media screen and (max-width: 320px) {
     .section_narrow {
-        width: 100%;
+    
     }
 }

@@ -1,0 +1,11 @@
+.places__img-container {
+
+}
+
+@media screen and (max-width:425px) {
+    .places__img-container {
+        margin-right: -16px;
+        margin-left: -16px;
+        box-sizing: border-box;
+    }
+}

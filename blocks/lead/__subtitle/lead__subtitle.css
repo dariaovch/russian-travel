@@ -1,37 +1,42 @@
 .lead__subtitle {
   max-width: 640px;
-  margin: 0 auto 56px auto;
+  margin: 32px auto 64px auto;
   text-align: center;
   font-size: 30px;
   line-height: 1.2;
   font-weight: normal;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:1024px) {
   .lead__subtitle {
-  max-width: 576px;
-  margin: 0 auto 40px auto;
-  font-size: 20px;
-  line-height: 1.25;
+    margin: 32px auto 56px auto;
   }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:720px) {
   .lead__subtitle {
-  max-width: 382px;
+    max-width: calc(100% - 32px);
+  }
+}
+
+@media screen and (max-width:640px) {
+  .lead__subtitle {
+    margin: 16px auto 40px auto;
+    font-size: 20px;
+    line-height: 1.25;
   }
 }
 
 @media screen and (max-width:375px) {
   .lead__subtitle {
-  max-width: 338px;
-  font-size: 16px;
-  line-height: 1.25;
+    max-width: 338px;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-  max-width: 288px;
+    max-width: 288px;
   }
 }

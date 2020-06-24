@@ -16,21 +16,18 @@
 @media screen and (max-width: 640px) {
     .places__title {
     font-size: 44px;
-    margin: 0 24px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .places__title {
     font-size: 40px;
-    margin: 0 20px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .places__title {
     font-size: 36px;
-    margin: 0 20px;
     }
 }
 
@@ -38,6 +35,5 @@
     .places__title {
     font-size: 32px;
     line-height: 1.1;
-    margin: 0 16px;
     }
 }

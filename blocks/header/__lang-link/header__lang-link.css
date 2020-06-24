@@ -3,16 +3,16 @@
     font-size: 24px;
     line-height: 1.17;
     font-weight: normal;
-    transition: opacity text-decoration 0.4s;
+    transition: opacity text-decoration 0.4s linear;
     text-decoration: none;
 }
 
 .header__lang-link:hover {
     text-decoration: underline;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 1.33;

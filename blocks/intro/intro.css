@@ -5,26 +5,27 @@
 @import url(./__fact-accent/intro__fact-accent.css);
 
 .intro {
-  padding-right: 294px;  
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   max-width: 690px;
+  margin-right: auto;
 }
 
 @media screen and (max-width:1024px) {
   .intro {
-    padding-right: 238px;
+    
   }
 }
 
 @media screen and (max-width:948px) {
   .intro {
-    padding-right: 0;
+   
   }
 }
 
 @media screen and (max-width:768px) {
   .intro {
-    padding-right: 0;
+  
     max-width: 720px;
   }
 }

@@ -22,7 +22,7 @@
     background: #2A2C2F;
     opacity: 0.3;
     z-index: -1;
-    transition: opacity 0.4s;
+    transition: opacity 0.4s linear;
 }
 
 .cover__banner:hover:after {
