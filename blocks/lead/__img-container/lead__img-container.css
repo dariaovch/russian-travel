@@ -8,28 +8,19 @@
 
 @media screen and (max-width: 1024px) {
     .lead__img-container {
-        
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__img-container {
-       margin-left: -24px;
-       margin-right: -24px;
-       box-sizing: border-box;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
     .lead__img-container {
-        margin-left: -16px;
-        margin-right: -16px;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
-    .lead__img-container {
-      
+    
     }
 }

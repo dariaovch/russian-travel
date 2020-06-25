@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:672px) {
   .lead__subtitle {
     max-width: calc(100% - 32px);
   }
@@ -31,7 +31,6 @@
   .lead__subtitle {
     max-width: 338px;
     font-size: 16px;
-    line-height: 1.25;
   }
 }
 

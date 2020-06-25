@@ -23,6 +23,18 @@
     .places__item {
         grid-column-gap: 28px;
         margin-bottom: 72px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__item {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 60px;
+        grid-template-columns: minmax(280px, 330px) fit-content(355px);
+        grid-column-gap: 20px;
     }
 }
 

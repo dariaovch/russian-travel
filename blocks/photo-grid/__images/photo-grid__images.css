@@ -8,3 +8,17 @@
     margin-bottom: 0;
     margin-top: 0;
 }
+
+@media screen and (max-width:768px) {
+    .photo-grid__images {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .photo-grid__images {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

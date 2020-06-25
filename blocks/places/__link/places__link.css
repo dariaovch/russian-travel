@@ -4,9 +4,9 @@
     line-height: 1.2;
     font-weight: normal;
     text-decoration: underline;
-    transition: opacity 0.4s;
+    transition: opacity 0.4s linear;
 }
 
 .places__link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }

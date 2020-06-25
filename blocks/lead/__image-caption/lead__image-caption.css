@@ -3,6 +3,7 @@
     line-height: 1.4;
     font-weight: normal;
     letter-spacing: 0.15em;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width:768px) {

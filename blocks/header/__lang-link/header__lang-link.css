@@ -3,12 +3,11 @@
     font-size: 24px;
     line-height: 1.17;
     font-weight: normal;
-    transition: opacity text-decoration 0.4s linear;
+    transition: opacity 0.4s linear;
     text-decoration: none;
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
     opacity: 0.8;
 }
 
