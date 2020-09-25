@@ -1,4 +1,4 @@
-# Проект 3: Путешествие по России
+# Проект 2: Путешествие по России
 
 Ссылка: https://dariaovch.github.io/russian-travel/index.html
 
